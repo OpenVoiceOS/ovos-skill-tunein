@@ -2,7 +2,7 @@
 
 OCP skill for TuneIn
 
-![./gui.png]()
+![](./gui.png)
 
 
 ## Examples 
