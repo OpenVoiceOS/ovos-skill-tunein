@@ -2,9 +2,13 @@
 
 OCP skill for TuneIn
 
+![./gui.png]()
+
+
 ## Examples 
 
 * "play heavy metal radio"
+* "play tune in metal radio"
 
 # Platform support
 

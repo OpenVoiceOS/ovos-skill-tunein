@@ -1,7 +1,7 @@
 from os.path import join, dirname
 
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill, \
-    MediaType, PlaybackType, ocp_search, MatchConfidence
+    MediaType, PlaybackType, ocp_search
 from tunein import TuneIn
 
 
@@ -17,8 +17,8 @@ class TuneInSkill(OVOSCommonPlaybackSkill):
     def search_tunein(self, phrase, media_type):
         base_score = 0
 
-        if media_type == MediaType.RADIO:
-            base_score += 20
+        if media_type == MediaType.RADIO or self.voc_match(phrase, "radio"):
+            base_score += 30
         else:
             base_score -= 30
 
@@ -28,11 +28,8 @@ class TuneInSkill(OVOSCommonPlaybackSkill):
 
         for ch in TuneIn.search(phrase):
             score = base_score + ch.match(phrase)
-            if self.voc_match(ch.title, "radio") and \
-                    (self.voc_match(phrase, "radio") or media_type == MediaType.RADIO):
-                score += 10
-            if score <= MatchConfidence.LOW:
-                continue
+            if self.voc_match(ch.title, "radio"):
+                score += 5
             yield {
                 "match_confidence": min(100, score),
                 "media_type": MediaType.RADIO,
@@ -45,6 +42,6 @@ class TuneInSkill(OVOSCommonPlaybackSkill):
                 "length": 0
             }
 
-g
+
 def create_skill():
     return TuneInSkill()
