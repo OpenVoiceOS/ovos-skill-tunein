@@ -1,4 +1,4 @@
-# <img src='./ui/tunein.ong' card_color='#40DBB0' width='50' height='50' style='vertical-align:bottom'/> TuneIn
+# <img src='./ui/tunein.png' card_color='#40DBB0' width='50' height='50' style='vertical-align:bottom'/> TuneIn
 
 OCP skill for TuneIn
 
