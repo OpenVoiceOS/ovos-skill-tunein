@@ -1,7 +1,7 @@
 from os.path import join, dirname
 
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill, \
-    MediaType, PlaybackType, ocp_search
+    MediaType, PlaybackType, ocp_search, ocp_featured_media
 from tunein import TuneIn
 
 
@@ -12,6 +12,22 @@ class TuneInSkill(OVOSCommonPlaybackSkill):
                                 MediaType.MUSIC,
                                 MediaType.RADIO]
         self.skill_icon = join(dirname(__file__), "ui", "tunein.png")
+    
+    @ocp_featured_media()
+    def featured_media(self):
+        return [{
+            "match_confidence": 90,
+            "media_type": MediaType.RADIO,
+            "uri": ch.stream,
+            "playback": PlaybackType.AUDIO,
+            "image": ch.image,
+            "bg_image": ch.image,
+            "skill_icon": self.skill_icon,
+            "title": ch.title,
+            "artist": ch.artist,
+            "author": "TuneIn",
+            "length": 0
+        } for ch in TuneIn.featured()]
 
     @ocp_search()
     def search_tunein(self, phrase, media_type):
@@ -39,6 +55,8 @@ class TuneInSkill(OVOSCommonPlaybackSkill):
                 "bg_image": ch.image,
                 "skill_icon": self.skill_icon,
                 "title": ch.title,
+                "artist": ch.artist,
+                "author": "TuneIn",
                 "length": 0
             }
 
