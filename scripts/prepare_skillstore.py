@@ -22,7 +22,7 @@ desktop_dir = join(base_dir, "res", "desktop")
 android_ui = join(base_dir, "ui", "+android")
 makedirs(desktop_dir, exist_ok=True)
 
-readme = join(base_dir, "readme.md")
+readme = join(base_dir, "README.md")
 jsonf = join(desktop_dir, "skill.json")
 desktopf = join(desktop_dir, f"{repo}.desktop")
 skill_code = join(base_dir, "__init__.py")

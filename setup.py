@@ -10,7 +10,7 @@ PYPI_NAME = "ovos-skill-tunein"  # pip install PYPI_NAME
 # below derived from github url to ensure standard skill_id
 SKILL_AUTHOR, SKILL_NAME = URL.split(".com/")[-1].split("/")
 SKILL_PKG = "ovos_skill_tunein"
-PLUGIN_ENTRY_POINT = f'{SKILL_PKG.lower()}.{SKILL_AUTHOR.lower()}={SKILL_PKG}:{SKILL_CLAZZ}'
+PLUGIN_ENTRY_POINT = f'{SKILL_NAME.lower()}.{SKILL_AUTHOR.lower()}={SKILL_PKG}:{SKILL_CLAZZ}'
 
 
 def get_requirements(requirements_filename: str):
