@@ -3,13 +3,13 @@ from setuptools import setup
 import os
 from os import walk, path
 
-URL = 'https://github.com/JarbasSkills/skill-tunein'
+URL = 'https://github.com/OpenVoiceOS/skill-ovos-tunein'
 SKILL_CLAZZ = "TuneInSkill"  # needs to match __init__.py class name
 PYPI_NAME = "ovos-skill-tunein"  # pip install PYPI_NAME
 
 # below derived from github url to ensure standard skill_id
 SKILL_AUTHOR, SKILL_NAME = URL.split(".com/")[-1].split("/")
-SKILL_PKG = SKILL_NAME.lower().replace('-', '_')
+SKILL_PKG = "ovos_skill_tunein"
 PLUGIN_ENTRY_POINT = f'{SKILL_NAME.lower()}.{SKILL_AUTHOR.lower()}={SKILL_PKG}:{SKILL_CLAZZ}'
 
 
@@ -69,10 +69,11 @@ def get_version():
 
 setup(
     # this is the package name that goes on pip
-    name='ovos-skill-tunein',
+    name=PYPI_NAME,
     version=get_version(),
     description='ovos tunein skill plugin',
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url=URL,
     author='JarbasAi',
     author_email='jarbasai@mailfence.com',
