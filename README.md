@@ -7,8 +7,8 @@ OCP skill for TuneIn
 
 ## Examples 
 
-* "play heavy metal radio"
-* "play tune in metal radio"
+* "play heavy metal heart radio"
+* "play metal heart radio on tune in"
 
 # Platform support
 
@@ -25,7 +25,7 @@ OCP skill for TuneIn
 |  [Mycroft Mark1](https://github.com/MycroftAI/enclosure-mark1)    | :question: |  dev  |         |    never    | 
 |  [Mycroft Mark2](https://github.com/MycroftAI/hardware-mycroft-mark-II)    | :question: |  dev  |         |    never    |  
 |    [NeonGecko](https://neon.ai)      | :question: |  dev  |         |    never    |   
-|       [OVOS](https://github.com/OpenVoiceOS)        | :question: |  dev  |         |    never    |    
+|       [OVOS](https://github.com/OpenVoiceOS)        | :heavy_check_mark: |  dev  |  0.0.2  |    09-05-2023    |    
 |     [Picroft](https://github.com/MycroftAI/enclosure-picroft)       | :question: |  dev  |         |    never    |  
 | [Plasma Bigscreen](https://plasma-bigscreen.org/)  | :question: |  dev  |         |    never    |  
 
@@ -35,6 +35,7 @@ OCP skill for TuneIn
 
 ## Credits 
 - JarbasAl
+- Emphasize
 
 ## Category
 **Entertainment**
