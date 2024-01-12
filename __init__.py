@@ -6,12 +6,10 @@ from tunein import TuneIn
 
 
 class TuneInSkill(OVOSCommonPlaybackSkill):
-    def __init__(self):
-        super().__init__("TuneIn")
-        self.supported_media = [MediaType.GENERIC,
-                                MediaType.MUSIC,
-                                MediaType.RADIO]
-        self.skill_icon = join(dirname(__file__), "ui", "tunein.png")
+    def __init__(self, *args, **kwargs):
+        self.supported_media = [MediaType.RADIO]
+        self.skill_icon = join(dirname(__file__), "res", "tunein.png")
+        super().__init__(*args, **kwargs)
     
     @ocp_featured_media()
     def featured_media(self):
@@ -59,7 +57,3 @@ class TuneInSkill(OVOSCommonPlaybackSkill):
                 "author": "TuneIn",
                 "length": 0
             }
-
-
-def create_skill():
-    return TuneInSkill()
