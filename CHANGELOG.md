@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/HEAD)
+## [V0.0.1a2](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/V0.0.1a2) (2024-01-12)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a1...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a1...V0.0.1a2)
 
 **Merged pull requests:**
 
