@@ -1,0 +1,14 @@
+{
+    "radio.voc": [
+        "internetov\u00e9 r\u00e1dio",
+        "r\u00e1dio"
+    ],
+    "tunein.voc": [
+        "v s\u00edti (tunein|tune in|tune-in)",
+        "tunein",
+        "v (tunein|tune in|tune-in)",
+        "o nalad\u011bn\u00ed",
+        "v aplikaci (tunein|tune in|tune-in)",
+        "u spole\u010dnosti (tunein|tune in|tune-in)"
+    ]
+}

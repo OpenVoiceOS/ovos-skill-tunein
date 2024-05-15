@@ -1,0 +1,9 @@
+{
+    "radio.voc": [
+        "internetradio",
+        "radio"
+    ],
+    "tunein.voc": [
+        "(in|op|bij|) (tunein|tune in|tune-in)"
+    ]
+}

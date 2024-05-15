@@ -1,0 +1,9 @@
+{
+    "radio.voc": [
+        "radio",
+        "radio internet"
+    ],
+    "tunein.voc": [
+        "(avec|dans|au|\u00e0) (tunein|tune in|tune-in)"
+    ]
+}
