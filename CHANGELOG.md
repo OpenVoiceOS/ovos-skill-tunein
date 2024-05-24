@@ -1,5 +1,17 @@
 # Changelog
 
+## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/HEAD)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a3...HEAD)
+
+**Fixed bugs:**
+
+- 'TuneInSkill' object has no attribute 'skill\_name' [\#4](https://github.com/OpenVoiceOS/skill-ovos-tunein/issues/4)
+
+## [V0.0.1a3](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/V0.0.1a3) (2024-01-13)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a2...V0.0.1a3)
+
 ## [V0.0.1a2](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/V0.0.1a2) (2024-01-12)
 
 [Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a1...V0.0.1a2)
