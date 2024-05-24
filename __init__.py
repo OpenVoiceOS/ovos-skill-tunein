@@ -1,15 +1,17 @@
 from os.path import join, dirname
 
-from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill, \
-    MediaType, PlaybackType, ocp_search, ocp_featured_media
+
+from ovos_utils.ocp import MediaType, PlaybackType
+from ovos_workshop.decorators import ocp_search, ocp_featured_media
+from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill
 from tunein import TuneIn
 
 
 class TuneInSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
-        self.supported_media = [MediaType.RADIO]
-        self.skill_icon = join(dirname(__file__), "res", "tunein.png")
-        super().__init__(*args, **kwargs)
+        super().__init__(supported_media = [MediaType.RADIO],
+                         skill_icon=join(dirname(__file__), "res", "tunein.png"),
+                         *args, **kwargs)
     
     @ocp_featured_media()
     def featured_media(self):
