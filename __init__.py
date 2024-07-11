@@ -10,6 +10,7 @@ class TuneInSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
         super().__init__(supported_media=[MediaType.RADIO],
                          skill_icon=join(dirname(__file__), "tunein.png"),
+                         skill_voc_filename="tunein_skill",
                          *args, **kwargs)
 
     @ocp_featured_media()
