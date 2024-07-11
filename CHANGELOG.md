@@ -2,7 +2,15 @@
 
 ## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a4...HEAD)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a5...HEAD)
+
+**Merged pull requests:**
+
+- feat/skill\_aliases [\#7](https://github.com/OpenVoiceOS/skill-ovos-tunein/pull/7) ([JarbasAl](https://github.com/JarbasAl))
+
+## [V0.0.1a5](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/V0.0.1a5) (2024-06-21)
+
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a4...V0.0.1a5)
 
 **Merged pull requests:**
 
