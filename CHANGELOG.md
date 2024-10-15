@@ -1,52 +1,12 @@
 # Changelog
 
-## [V0.0.1a6](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/V0.0.1a6) (2024-07-11)
+## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/HEAD)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a5...V0.0.1a6)
-
-**Merged pull requests:**
-
-- feat/skill\_aliases [\#7](https://github.com/OpenVoiceOS/skill-ovos-tunein/pull/7) ([JarbasAl](https://github.com/JarbasAl))
-
-## [V0.0.1a5](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/V0.0.1a5) (2024-06-21)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a4...V0.0.1a5)
+[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1...HEAD)
 
 **Merged pull requests:**
 
-- refactor/ocp\_modernize [\#6](https://github.com/OpenVoiceOS/skill-ovos-tunein/pull/6) ([JarbasAl](https://github.com/JarbasAl))
-
-## [V0.0.1a4](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/V0.0.1a4) (2024-05-24)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a3...V0.0.1a4)
-
-**Fixed bugs:**
-
-- 'TuneInSkill' object has no attribute 'skill\_name' [\#4](https://github.com/OpenVoiceOS/skill-ovos-tunein/issues/4)
-
-## [V0.0.1a3](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/V0.0.1a3) (2024-01-13)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a2...V0.0.1a3)
-
-## [V0.0.1a2](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/V0.0.1a2) (2024-01-12)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/V0.0.1a1...V0.0.1a2)
-
-**Merged pull requests:**
-
-- modernize [\#3](https://github.com/OpenVoiceOS/skill-ovos-tunein/pull/3) ([NeonJarbas](https://github.com/NeonJarbas))
-
-## [V0.0.1a1](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/V0.0.1a1) (2023-09-05)
-
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/3a9bc88b6e19b2674044ba0249758cf2aa5e3885...V0.0.1a1)
-
-**Implemented enhancements:**
-
-- add featured media [\#1](https://github.com/OpenVoiceOS/skill-ovos-tunein/pull/1) ([emphasize](https://github.com/emphasize))
-
-**Merged pull requests:**
-
-- pypi ready [\#2](https://github.com/OpenVoiceOS/skill-ovos-tunein/pull/2) ([emphasize](https://github.com/emphasize))
+- fix:update\_requirements [\#8](https://github.com/OpenVoiceOS/skill-ovos-tunein/pull/8) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
