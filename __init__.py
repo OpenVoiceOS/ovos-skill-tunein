@@ -1,6 +1,6 @@
 from os.path import join, dirname
 
-from ovos_workshop.backwards_compat import MediaType, PlaybackType, Playlist, MediaEntry
+from ovos_utils.ocp import MediaType, PlaybackType, Playlist, MediaEntry
 from ovos_workshop.decorators import ocp_search, ocp_featured_media
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill
 from tunein import TuneIn
