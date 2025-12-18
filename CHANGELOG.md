@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.6a2](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a2) (2025-12-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.6a1...0.0.6a2)
+
+**Merged pull requests:**
+
+- chore: Configure Renovate [\#16](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.0.6a1](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a1) (2025-01-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.5...0.0.6a1)
