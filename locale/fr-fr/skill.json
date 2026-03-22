@@ -1,0 +1,8 @@
+{
+  "name": "TuneIn",
+  "description": "Lancez des stations de radio internet avec TuneIn.",
+  "examples": [
+    "Lance FIP sur TuneIn",
+    "Mets du jazz sur TuneIn"
+  ]
+}
