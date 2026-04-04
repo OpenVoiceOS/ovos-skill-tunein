@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.0.6a4](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a4) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.6a3...0.0.6a4)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#29](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/29) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#28](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/28) ([JarbasAl](https://github.com/JarbasAl))
+- Complete French TuneIn locale [\#26](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/26) ([goldyfruit](https://github.com/goldyfruit))
+
 ## [0.0.6a3](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a3) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.6a2...0.0.6a3)
