@@ -1,13 +1,21 @@
 from os.path import join, dirname
 
+from ovos_utils.log import log_deprecation
 from ovos_utils.ocp import MediaType, PlaybackType, Playlist, MediaEntry
 from ovos_workshop.decorators import ocp_search, ocp_featured_media
 from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill
 from tunein import TuneIn
 
+from version import VERSION_MAJOR
+
 
 class TuneInSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
+        log_deprecation("ovos-skill-tunein is deprecated and will be replaced by "
+                         "ovos-media-provider-tunein once the OCP pipeline's "
+                         "MediaProvider dispatch becomes the default search path "
+                         "— install that MediaProvider plugin instead",
+                         deprecation_version=f"{VERSION_MAJOR + 1}.0.0")
         super().__init__(supported_media=[MediaType.RADIO],
                          skill_icon=join(dirname(__file__), "tunein.png"),
                          skill_voc_filename="tunein_skill",
