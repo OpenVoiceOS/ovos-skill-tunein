@@ -1,12 +1,46 @@
 # Changelog
 
-## [0.0.5a1](https://github.com/OpenVoiceOS/skill-ovos-tunein/tree/0.0.5a1) (2024-11-17)
+## [0.0.6a5](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a5) (2026-09-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/skill-ovos-tunein/compare/0.0.4...0.0.5a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.6a4...0.0.6a5)
 
 **Merged pull requests:**
 
-- fix: skilljson [\#12](https://github.com/OpenVoiceOS/skill-ovos-tunein/pull/12) ([JarbasAl](https://github.com/JarbasAl))
+- docs: deprecation notice — superseded by MediaProvider plugins [\#31](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/31) ([JarbasAl](https://github.com/JarbasAl))
+
+## [0.0.6a4](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a4) (2026-04-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.6a3...0.0.6a4)
+
+**Merged pull requests:**
+
+- ci: modernize GitHub workflows [\#29](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/29) ([JarbasAl](https://github.com/JarbasAl))
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#28](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/28) ([JarbasAl](https://github.com/JarbasAl))
+- Complete French TuneIn locale [\#26](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/26) ([goldyfruit](https://github.com/goldyfruit))
+
+## [0.0.6a3](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.6a2...0.0.6a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update dependency python to 3.14 [\#17](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/17) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.0.6a2](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a2) (2025-12-18)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.6a1...0.0.6a2)
+
+**Merged pull requests:**
+
+- chore: Configure Renovate [\#16](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/16) ([renovate[bot]](https://github.com/apps/renovate))
+
+## [0.0.6a1](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a1) (2025-01-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.5...0.0.6a1)
+
+**Merged pull requests:**
+
+- fix automations [\#14](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/14) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
