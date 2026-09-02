@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.6a5](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a5) (2026-09-02)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.6a4...0.0.6a5)
+
+**Merged pull requests:**
+
+- docs: deprecation notice — superseded by MediaProvider plugins [\#31](https://github.com/OpenVoiceOS/ovos-skill-tunein/pull/31) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.6a4](https://github.com/OpenVoiceOS/ovos-skill-tunein/tree/0.0.6a4) (2026-04-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-skill-tunein/compare/0.0.6a3...0.0.6a4)
